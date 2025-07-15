@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Remy's Journey</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<body>
+
+  <header>
+  <div class="container nav">
+    <h1 class="site-title">Remy’s Journey</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#dishes">Made</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section id="home" class="home-section">
+  <div class="home-content">
+    <h2 class="home-title">Bienvenue! 🍽️</h2>
+    <p class="home-subtitle">Join Remy on his magical culinary journey – the little rat with a big dream!</p>
+    <a href="#characters" class="home-cta">Meet the characters</a>
+  </div>
+</section>
+
+  <section id="about" class="section about-section">
+  <div class="container about-centered">
+    <h2 class="section-title">About Us</h2>
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/3YG4h5GbTqU" 
+        title="Remy Ratatouille"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+  <section id="characters" class="section">
+  <div class="container">
+    <h2 class="section-title">Ratatouille Characters</h2>
+    <div class="grid">
+        <div class="card">
+          <img src="remy.png" alt="Remy">
+          <h3>Remy</h3>
+          <p>Remy is a little mouse with big dreams of becoming a famous chef. He has an extraordinary sense of smell and an indomitable spirit.</p>
+        </div>
+        <div class="card">
+          <img src="linguini.png" alt="Linguini">
+          <h3>Alfredo Linguini</h3>
+          <p>A clumsy young man who works in the kitchen of Gusteau's. Together with Remy, he forms a formidable team to create extraordinary dishes.</p>
+        </div>
+        <div class="card">
+          <img src="ego.png" alt="Anton Ego">
+          <h3>Anton Ego</h3>
+          <p>Anton Ego is a renowned and feared food critic from the film Ratatouille. He is known as "The Grim Eater" for his scathing food reviews, capable of "killing" restaurants with his harsh criticism.</p>
+        </div>
+        <div class="card">
+          <img src="skinner.png" alt="Skinner">
+          <h3>Chef Skinner</h3>
+          <p>An angry and manipulative chef tries to take over Gusteau's restaurant and opposes Remy and Linguini's presence.</p>
+        <div class="card" data-aos="flip-left">
+         <img src="images/remy.png" alt="Remy">
+         <h3>Remy</h3>
+         <p>...</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dishes" class="section">
+  <div class="container">
+    <h2 class="section-title">Made by Remy</h2>
+    <p>Delicious dishes straight from the paws of Remy himself!</p>
+    <div class="grid">
+        <div class="card">
+          <img src="ratatouille.png" alt="Ratatouille">
+          <h3>Ratatouille</h3>
+        </div>
+        <div class="card">
+          <img src="soup.png" alt="Leek and Potato Soup">
+          <h3>Leek & Potato Soup</h3>
+        </div>
+        <div class="card">
+          <img src="omelette.png" alt="Omelette">
+          <h3>Breakfast Omelette</h3>
+        </div>
+        <div class="card">
+          <img src="horsdoeuvre.png" alt="Hors d'oeuvre">
+          <h3>Hors d'oeuvre</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="join" class="section join-section">
+  <div class="container">
+    <h2 class="section-title">Join Us</h2>
+    <p class="join-text">Join us in Remy's journey and be part of a community where anyone can cook — and dream!</p>
+    
+    <div class="join-card">
+  <h3>Become Part of the Kitchen</h3>
+  <p>Sign up to receive recipes, cooking tips, and Remy’s latest creations.</p>
+  <form action="success.html" method="get" class="join-form">
+  <input type="email" name="email" placeholder="Your email address" required>
+  <textarea name="message" placeholder="Why are you interested in cooking?" required></textarea>
+  <button type="submit">Join Now</button>
+</form>
+</form>
+</div>
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Remy's Journey | Inspired by Disney Pixar's Ratatouille</p>
+    </div>
+  </footer>
+
+</body>
+</html>
